@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3DC865727839FCF007C2ACF /* UsersInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC865627839FCF007C2ACF /* UsersInfo.swift */; };
+		C3DC865927845ADE007C2ACF /* extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC865827845ADE007C2ACF /* extra.swift */; };
+		C3DC865C2784780C007C2ACF /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = C3DC865B2784780C007C2ACF /* FacebookLogin */; };
+		C3DC865F27849823007C2ACF /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = C3DC865E27849823007C2ACF /* MessageKit */; };
+		C3DC8662278498D3007C2ACF /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = C3DC8661278498D3007C2ACF /* JGProgressHUD */; };
 		C3F6BEFB27832F08009ADC3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F6BEFA27832F08009ADC3E /* AppDelegate.swift */; };
 		C3F6BEFD27832F08009ADC3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F6BEFC27832F08009ADC3E /* SceneDelegate.swift */; };
 		C3F6BEFF27832F08009ADC3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F6BEFE27832F08009ADC3E /* LoginViewController.swift */; };
@@ -26,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3DC865627839FCF007C2ACF /* UsersInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersInfo.swift; sourceTree = "<group>"; };
+		C3DC865827845ADE007C2ACF /* extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extra.swift; sourceTree = "<group>"; };
 		C3F6BEF727832F08009ADC3E /* MessengerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F6BEFA27832F08009ADC3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3F6BEFC27832F08009ADC3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,8 +54,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DC865C2784780C007C2ACF /* FacebookLogin in Frameworks */,
+				C3DC8662278498D3007C2ACF /* JGProgressHUD in Frameworks */,
 				C3F6BF1C278330F9009ADC3E /* FirebaseDatabase in Frameworks */,
 				C3F6BF1E278330F9009ADC3E /* FirebaseStorage in Frameworks */,
+				C3DC865F27849823007C2ACF /* MessageKit in Frameworks */,
 				C3F6BF18278330F9009ADC3E /* FirebaseAnalytics in Frameworks */,
 				C3F6BF1A278330F9009ADC3E /* FirebaseAuth in Frameworks */,
 			);
@@ -113,6 +123,8 @@
 				C3F6BEFA27832F08009ADC3E /* AppDelegate.swift */,
 				C3F6BEFC27832F08009ADC3E /* SceneDelegate.swift */,
 				C3F6BF2627834559009ADC3E /* Extensions.swift */,
+				C3DC865827845ADE007C2ACF /* extra.swift */,
+				C3DC865627839FCF007C2ACF /* UsersInfo.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -154,6 +166,9 @@
 				C3F6BF19278330F9009ADC3E /* FirebaseAuth */,
 				C3F6BF1B278330F9009ADC3E /* FirebaseDatabase */,
 				C3F6BF1D278330F9009ADC3E /* FirebaseStorage */,
+				C3DC865B2784780C007C2ACF /* FacebookLogin */,
+				C3DC865E27849823007C2ACF /* MessageKit */,
+				C3DC8661278498D3007C2ACF /* JGProgressHUD */,
 			);
 			productName = MessengerApp;
 			productReference = C3F6BEF727832F08009ADC3E /* MessengerApp.app */;
@@ -185,6 +200,9 @@
 			mainGroup = C3F6BEEE27832F08009ADC3E;
 			packageReferences = (
 				C3F6BF16278330F9009ADC3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C3DC865A2784780B007C2ACF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				C3DC865D27849822007C2ACF /* XCRemoteSwiftPackageReference "MessageKit" */,
+				C3DC8660278498D2007C2ACF /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
 			);
 			productRefGroup = C3F6BEF827832F08009ADC3E /* Products */;
 			projectDirPath = "";
@@ -216,9 +234,11 @@
 			files = (
 				C3F6BEFF27832F08009ADC3E /* LoginViewController.swift in Sources */,
 				C3F6BF2527833675009ADC3E /* NewConversationViewController.swift in Sources */,
+				C3DC865727839FCF007C2ACF /* UsersInfo.swift in Sources */,
 				C3F6BEFB27832F08009ADC3E /* AppDelegate.swift in Sources */,
 				C3F6BF2727834559009ADC3E /* Extensions.swift in Sources */,
 				C3F6BF232783364D009ADC3E /* ConversationViewController.swift in Sources */,
+				C3DC865927845ADE007C2ACF /* extra.swift in Sources */,
 				C3F6BF1327832F73009ADC3E /* ProfileViewController.swift in Sources */,
 				C3F6BEFD27832F08009ADC3E /* SceneDelegate.swift in Sources */,
 				C3F6BF0F27832F22009ADC3E /* RegisterViewController.swift in Sources */,
@@ -441,6 +461,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		C3DC865A2784780B007C2ACF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		C3DC865D27849822007C2ACF /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		C3DC8660278498D2007C2ACF /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		C3F6BF16278330F9009ADC3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -452,6 +496,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C3DC865B2784780C007C2ACF /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3DC865A2784780B007C2ACF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		C3DC865E27849823007C2ACF /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3DC865D27849822007C2ACF /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+		C3DC8661278498D3007C2ACF /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3DC8660278498D2007C2ACF /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
 		C3F6BF17278330F9009ADC3E /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C3F6BF16278330F9009ADC3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
