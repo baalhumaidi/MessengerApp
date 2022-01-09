@@ -114,7 +114,7 @@ class RegisterViewController: UIViewController {
         profilePic.layer.masksToBounds = true
         profilePic.layer.borderWidth = 2
         profilePic.layer.borderColor = UIColor.gray.cgColor
-        profilePic.layer.cornerRadius = profilePic.width/2 // to make the profile pic circular
+        profilePic.layer.cornerRadius = profilePic.frame.size.width/2 // to make the profile pic circular
         profilePic.contentMode = .scaleAspectFill
     }
     

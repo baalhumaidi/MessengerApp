@@ -15,6 +15,7 @@
 		C3EC350D2784E6AE006C5805 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EC350C2784E6AE006C5805 /* StorageManager.swift */; };
 		C3EC350F27862D1E006C5805 /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EC350E27862D1E006C5805 /* ConversationTableViewCell.swift */; };
 		C3EC351227863F91006C5805 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = C3EC351127863F91006C5805 /* SDWebImage */; };
+		C3EC3535278B6978006C5805 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EC3534278B6978006C5805 /* extensions.swift */; };
 		C3F6BEFB27832F08009ADC3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F6BEFA27832F08009ADC3E /* AppDelegate.swift */; };
 		C3F6BEFD27832F08009ADC3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F6BEFC27832F08009ADC3E /* SceneDelegate.swift */; };
 		C3F6BEFF27832F08009ADC3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F6BEFE27832F08009ADC3E /* LoginViewController.swift */; };
@@ -37,6 +38,7 @@
 		C3EC350A2784C1B6006C5805 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		C3EC350C2784E6AE006C5805 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		C3EC350E27862D1E006C5805 /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
+		C3EC3534278B6978006C5805 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		C3F6BEF727832F08009ADC3E /* MessengerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F6BEFA27832F08009ADC3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3F6BEFC27832F08009ADC3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				C3F6BEFC27832F08009ADC3E /* SceneDelegate.swift */,
 				C3DC865627839FCF007C2ACF /* UsersInfo.swift */,
 				C3EC350C2784E6AE006C5805 /* StorageManager.swift */,
+				C3EC3534278B6978006C5805 /* extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				C3F6BF1327832F73009ADC3E /* ProfileViewController.swift in Sources */,
 				C3F6BEFD27832F08009ADC3E /* SceneDelegate.swift in Sources */,
 				C3F6BF0F27832F22009ADC3E /* RegisterViewController.swift in Sources */,
+				C3EC3535278B6978006C5805 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
